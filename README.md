@@ -87,7 +87,6 @@ quiz-app/
 ---
 
 ## Screenshots
-_Add screenshots here to showcase the UI and features._
 
 ---
 
