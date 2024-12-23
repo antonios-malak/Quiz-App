@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <!-- font awesome  -->
+
+    <!-- fav icon  -->
+     <link rel="icon" href="images/quiz.png">
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Electrolize&display=swap" rel="stylesheet">
+    <!-- animate css link  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- bootstrap stylesheet  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom stylesheet  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column justify-content-center align-items-center">
+    <div class="heading animate__animated animate__backInLeft">
+    <h1 class="mb=0">Quiz App</h1>
+    </div>
+<div class=" form container animate__animated animate__fadeInBottomLeft ">
+        <div class="form-floating mb-3">
+        <select class="form-select" id="floatingSelect1" aria-label="Floating label select example">
+            <option selected value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <label for="floatingSelect">Choose Difficulty level</label>
+    </div>
+    <div class="form-floating mb-3">
+        <select class="form-select" id="floatingSelect2" aria-label="Floating label select example">
+            <option selected>Any Category</option>
+            <option value="9">General Knowledge</option>
+            <option value="17">Science & Nature</option>
+            <option value="25">Art</option>
+            <option value="27">Animals</option>
+            <option value="28">Vehicles</option>
+        </select>
+        <label for="floatingSelect">Choose Category</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="floatingNumber" placeholder="number">
+        <label for="floatingNumber">Number of Questions</label>
+    </div>
+    <button type="submit" id="start" class="btn btn-primary mx-auto d-block w-50">Start</button>
+</div>   
+<div class=" question-container container ">
+</div>     
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
