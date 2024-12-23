@@ -88,6 +88,15 @@ quiz-app/
 
 ## Screenshots
 
+1. **Home Page**  
+   ![Home Page](assets/screenshots/home_page.png)
+
+2. **Quiz Question**  
+   ![Quiz Question](assets/screenshots/quiz_question.png)
+
+3. **Score Display**  
+   ![Score Display](assets/screenshots/score_display.png)
+
 ---
 
 ## Demo
